@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		056ACB51FDA6D591A2CDF70D /* Pods_RevereWaterSewerApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342189A3D747075859124078 /* Pods_RevereWaterSewerApp.framework */; };
+		5F3CC8F9241139D00003E252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3CC8F8241139D00003E252 /* AppDelegate.swift */; };
+		5F3CC8FB241139D00003E252 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3CC8FA241139D00003E252 /* SceneDelegate.swift */; };
+		5F3CC8FD241139D00003E252 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3CC8FC241139D00003E252 /* ViewController.swift */; };
+		5F3CC900241139D00003E252 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F3CC8FE241139D00003E252 /* Main.storyboard */; };
+		5F3CC902241139D50003E252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F3CC901241139D50003E252 /* Assets.xcassets */; };
+		5F3CC905241139D50003E252 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F3CC903241139D50003E252 /* LaunchScreen.storyboard */; };
+		5F3CC910241139D50003E252 /* RevereWaterSewerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3CC90F241139D50003E252 /* RevereWaterSewerAppTests.swift */; };
+		5F3CC91B241139D50003E252 /* RevereWaterSewerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3CC91A241139D50003E252 /* RevereWaterSewerAppUITests.swift */; };
+		5F5A747D2411DFA6007ED9C7 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5A747C2411DFA6007ED9C7 /* AuthView.swift */; };
+		5F74D56624113E2A000962DE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F74D56524113E2A000962DE /* GoogleService-Info.plist */; };
+		5F74D57F24114544000962DE /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F74D57E24114544000962DE /* SessionStore.swift */; };
+		5FBC0A922415A82900AE451E /* AddEquipmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBC0A912415A82900AE451E /* AddEquipmentViewController.swift */; };
+		5FBC0A942415A88F00AE451E /* UpdateEquipmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBC0A932415A88F00AE451E /* UpdateEquipmentViewController.swift */; };
+		5FBC0A962415A8BA00AE451E /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBC0A952415A8BA00AE451E /* InventoryViewController.swift */; };
+		5FD54E5D2411721A0023B915 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD54E5C2411721A0023B915 /* ContentView.swift */; };
+		9D5A0B11D3370168582FC15F /* Pods_RevereWaterSewerAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B768C56698B53586F6359F /* Pods_RevereWaterSewerAppTests.framework */; };
+		ED912B1EA35D15EBEF21AB7C /* Pods_RevereWaterSewerApp_RevereWaterSewerAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5C939DE2F176DA7D95F188 /* Pods_RevereWaterSewerApp_RevereWaterSewerAppUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F3CC90C241139D50003E252 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F3CC8ED241139D00003E252 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F3CC8F4241139D00003E252;
+			remoteInfo = RevereWaterSewerApp;
+		};
+		5F3CC917241139D50003E252 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F3CC8ED241139D00003E252 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F3CC8F4241139D00003E252;
+			remoteInfo = RevereWaterSewerApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E5C939DE2F176DA7D95F188 /* Pods_RevereWaterSewerApp_RevereWaterSewerAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RevereWaterSewerApp_RevereWaterSewerAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		342189A3D747075859124078 /* Pods_RevereWaterSewerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RevereWaterSewerApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D67C2D59A9098262119F66B /* Pods-RevereWaterSewerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RevereWaterSewerApp.debug.xcconfig"; path = "Target Support Files/Pods-RevereWaterSewerApp/Pods-RevereWaterSewerApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5F3CC8F5241139D00003E252 /* RevereWaterSewerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RevereWaterSewerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F3CC8F8241139D00003E252 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F3CC8FA241139D00003E252 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5F3CC8FC241139D00003E252 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F3CC8FF241139D00003E252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F3CC901241139D50003E252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F3CC904241139D50003E252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F3CC906241139D50003E252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F3CC90B241139D50003E252 /* RevereWaterSewerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevereWaterSewerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F3CC90F241139D50003E252 /* RevereWaterSewerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevereWaterSewerAppTests.swift; sourceTree = "<group>"; };
+		5F3CC911241139D50003E252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F3CC916241139D50003E252 /* RevereWaterSewerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevereWaterSewerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F3CC91A241139D50003E252 /* RevereWaterSewerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevereWaterSewerAppUITests.swift; sourceTree = "<group>"; };
+		5F3CC91C241139D50003E252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F5A747C2411DFA6007ED9C7 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		5F74D56524113E2A000962DE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5F74D57E24114544000962DE /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		5FBC0A912415A82900AE451E /* AddEquipmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEquipmentViewController.swift; sourceTree = "<group>"; };
+		5FBC0A932415A88F00AE451E /* UpdateEquipmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateEquipmentViewController.swift; sourceTree = "<group>"; };
+		5FBC0A952415A8BA00AE451E /* InventoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
+		5FD54E5C2411721A0023B915 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8919078AF6669BECCE33018B /* Pods-RevereWaterSewerAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RevereWaterSewerAppTests.debug.xcconfig"; path = "Target Support Files/Pods-RevereWaterSewerAppTests/Pods-RevereWaterSewerAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A0237C90428AB4C4C73C68E3 /* Pods-RevereWaterSewerApp-RevereWaterSewerAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RevereWaterSewerApp-RevereWaterSewerAppUITests.release.xcconfig"; path = "Target Support Files/Pods-RevereWaterSewerApp-RevereWaterSewerAppUITests/Pods-RevereWaterSewerApp-RevereWaterSewerAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AFA82F3889E0A6D692DD1692 /* Pods-RevereWaterSewerAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RevereWaterSewerAppTests.release.xcconfig"; path = "Target Support Files/Pods-RevereWaterSewerAppTests/Pods-RevereWaterSewerAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		C34C8BFBE2386285C5D1C2DD /* Pods-RevereWaterSewerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RevereWaterSewerApp.release.xcconfig"; path = "Target Support Files/Pods-RevereWaterSewerApp/Pods-RevereWaterSewerApp.release.xcconfig"; sourceTree = "<group>"; };
+		D63C8C958A205B3F7361C7E8 /* Pods-RevereWaterSewerApp-RevereWaterSewerAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RevereWaterSewerApp-RevereWaterSewerAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-RevereWaterSewerApp-RevereWaterSewerAppUITests/Pods-RevereWaterSewerApp-RevereWaterSewerAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4B768C56698B53586F6359F /* Pods_RevereWaterSewerAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RevereWaterSewerAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F3CC8F2241139D00003E252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056ACB51FDA6D591A2CDF70D /* Pods_RevereWaterSewerApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3CC908241139D50003E252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5A0B11D3370168582FC15F /* Pods_RevereWaterSewerAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3CC913241139D50003E252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED912B1EA35D15EBEF21AB7C /* Pods_RevereWaterSewerApp_RevereWaterSewerAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34B4471AB2629E22EB6A1FAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				342189A3D747075859124078 /* Pods_RevereWaterSewerApp.framework */,
+				1E5C939DE2F176DA7D95F188 /* Pods_RevereWaterSewerApp_RevereWaterSewerAppUITests.framework */,
+				F4B768C56698B53586F6359F /* Pods_RevereWaterSewerAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5895BB252386FA317451F583 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D67C2D59A9098262119F66B /* Pods-RevereWaterSewerApp.debug.xcconfig */,
+				C34C8BFBE2386285C5D1C2DD /* Pods-RevereWaterSewerApp.release.xcconfig */,
+				D63C8C958A205B3F7361C7E8 /* Pods-RevereWaterSewerApp-RevereWaterSewerAppUITests.debug.xcconfig */,
+				A0237C90428AB4C4C73C68E3 /* Pods-RevereWaterSewerApp-RevereWaterSewerAppUITests.release.xcconfig */,
+				8919078AF6669BECCE33018B /* Pods-RevereWaterSewerAppTests.debug.xcconfig */,
+				AFA82F3889E0A6D692DD1692 /* Pods-RevereWaterSewerAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5F3CC8EC241139D00003E252 = {
+			isa = PBXGroup;
+			children = (
+				5F3CC8F7241139D00003E252 /* RevereWaterSewerApp */,
+				5F3CC90E241139D50003E252 /* RevereWaterSewerAppTests */,
+				5F3CC919241139D50003E252 /* RevereWaterSewerAppUITests */,
+				5F3CC8F6241139D00003E252 /* Products */,
+				5895BB252386FA317451F583 /* Pods */,
+				34B4471AB2629E22EB6A1FAC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5F3CC8F6241139D00003E252 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F3CC8F5241139D00003E252 /* RevereWaterSewerApp.app */,
+				5F3CC90B241139D50003E252 /* RevereWaterSewerAppTests.xctest */,
+				5F3CC916241139D50003E252 /* RevereWaterSewerAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F3CC8F7241139D00003E252 /* RevereWaterSewerApp */ = {
+			isa = PBXGroup;
+			children = (
+				5F3CC8F8241139D00003E252 /* AppDelegate.swift */,
+				5F3CC8FA241139D00003E252 /* SceneDelegate.swift */,
+				5FD54E5C2411721A0023B915 /* ContentView.swift */,
+				5F5A747C2411DFA6007ED9C7 /* AuthView.swift */,
+				5FBC0A912415A82900AE451E /* AddEquipmentViewController.swift */,
+				5FBC0A932415A88F00AE451E /* UpdateEquipmentViewController.swift */,
+				5FBC0A952415A8BA00AE451E /* InventoryViewController.swift */,
+				5F74D57E24114544000962DE /* SessionStore.swift */,
+				5F3CC8FC241139D00003E252 /* ViewController.swift */,
+				5F3CC8FE241139D00003E252 /* Main.storyboard */,
+				5F3CC901241139D50003E252 /* Assets.xcassets */,
+				5F3CC903241139D50003E252 /* LaunchScreen.storyboard */,
+				5F3CC906241139D50003E252 /* Info.plist */,
+				5F74D56524113E2A000962DE /* GoogleService-Info.plist */,
+			);
+			path = RevereWaterSewerApp;
+			sourceTree = "<group>";
+		};
+		5F3CC90E241139D50003E252 /* RevereWaterSewerAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F3CC90F241139D50003E252 /* RevereWaterSewerAppTests.swift */,
+				5F3CC911241139D50003E252 /* Info.plist */,
+			);
+			path = RevereWaterSewerAppTests;
+			sourceTree = "<group>";
+		};
+		5F3CC919241139D50003E252 /* RevereWaterSewerAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F3CC91A241139D50003E252 /* RevereWaterSewerAppUITests.swift */,
+				5F3CC91C241139D50003E252 /* Info.plist */,
+			);
+			path = RevereWaterSewerAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F3CC8F4241139D00003E252 /* RevereWaterSewerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F3CC91F241139D50003E252 /* Build configuration list for PBXNativeTarget "RevereWaterSewerApp" */;
+			buildPhases = (
+				7F75F3D0B241A64E64441672 /* [CP] Check Pods Manifest.lock */,
+				5F3CC8F1241139D00003E252 /* Sources */,
+				5F3CC8F2241139D00003E252 /* Frameworks */,
+				5F3CC8F3241139D00003E252 /* Resources */,
+				D61BEE3BB33BD3210D42B85D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RevereWaterSewerApp;
+			productName = RevereWaterSewerApp;
+			productReference = 5F3CC8F5241139D00003E252 /* RevereWaterSewerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F3CC90A241139D50003E252 /* RevereWaterSewerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F3CC922241139D50003E252 /* Build configuration list for PBXNativeTarget "RevereWaterSewerAppTests" */;
+			buildPhases = (
+				9E8156021910A06545B45C6B /* [CP] Check Pods Manifest.lock */,
+				5F3CC907241139D50003E252 /* Sources */,
+				5F3CC908241139D50003E252 /* Frameworks */,
+				5F3CC909241139D50003E252 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F3CC90D241139D50003E252 /* PBXTargetDependency */,
+			);
+			name = RevereWaterSewerAppTests;
+			productName = RevereWaterSewerAppTests;
+			productReference = 5F3CC90B241139D50003E252 /* RevereWaterSewerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F3CC915241139D50003E252 /* RevereWaterSewerAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F3CC925241139D50003E252 /* Build configuration list for PBXNativeTarget "RevereWaterSewerAppUITests" */;
+			buildPhases = (
+				D481E65DA7EFC20546266E97 /* [CP] Check Pods Manifest.lock */,
+				5F3CC912241139D50003E252 /* Sources */,
+				5F3CC913241139D50003E252 /* Frameworks */,
+				5F3CC914241139D50003E252 /* Resources */,
+				F10D254C312D0CF759ED2D5E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F3CC918241139D50003E252 /* PBXTargetDependency */,
+			);
+			name = RevereWaterSewerAppUITests;
+			productName = RevereWaterSewerAppUITests;
+			productReference = 5F3CC916241139D50003E252 /* RevereWaterSewerAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F3CC8ED241139D00003E252 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Ahmed Ibreljic";
+				TargetAttributes = {
+					5F3CC8F4241139D00003E252 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					5F3CC90A241139D50003E252 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 5F3CC8F4241139D00003E252;
+					};
+					5F3CC915241139D50003E252 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 5F3CC8F4241139D00003E252;
+					};
+				};
+			};
+			buildConfigurationList = 5F3CC8F0241139D00003E252 /* Build configuration list for PBXProject "RevereWaterSewerApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F3CC8EC241139D00003E252;
+			productRefGroup = 5F3CC8F6241139D00003E252 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F3CC8F4241139D00003E252 /* RevereWaterSewerApp */,
+				5F3CC90A241139D50003E252 /* RevereWaterSewerAppTests */,
+				5F3CC915241139D50003E252 /* RevereWaterSewerAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F3CC8F3241139D00003E252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3CC905241139D50003E252 /* LaunchScreen.storyboard in Resources */,
+				5F3CC902241139D50003E252 /* Assets.xcassets in Resources */,
+				5F3CC900241139D00003E252 /* Main.storyboard in Resources */,
+				5F74D56624113E2A000962DE /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3CC909241139D50003E252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3CC914241139D50003E252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F75F3D0B241A64E64441672 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RevereWaterSewerApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E8156021910A06545B45C6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RevereWaterSewerAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D481E65DA7EFC20546266E97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RevereWaterSewerApp-RevereWaterSewerAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D61BEE3BB33BD3210D42B85D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RevereWaterSewerApp/Pods-RevereWaterSewerApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RevereWaterSewerApp/Pods-RevereWaterSewerApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RevereWaterSewerApp/Pods-RevereWaterSewerApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F10D254C312D0CF759ED2D5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RevereWaterSewerApp-RevereWaterSewerAppUITests/Pods-RevereWaterSewerApp-RevereWaterSewerAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RevereWaterSewerApp-RevereWaterSewerAppUITests/Pods-RevereWaterSewerApp-RevereWaterSewerAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RevereWaterSewerApp-RevereWaterSewerAppUITests/Pods-RevereWaterSewerApp-RevereWaterSewerAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F3CC8F1241139D00003E252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FBC0A942415A88F00AE451E /* UpdateEquipmentViewController.swift in Sources */,
+				5FBC0A962415A8BA00AE451E /* InventoryViewController.swift in Sources */,
+				5F3CC8FD241139D00003E252 /* ViewController.swift in Sources */,
+				5FD54E5D2411721A0023B915 /* ContentView.swift in Sources */,
+				5F5A747D2411DFA6007ED9C7 /* AuthView.swift in Sources */,
+				5F3CC8F9241139D00003E252 /* AppDelegate.swift in Sources */,
+				5F74D57F24114544000962DE /* SessionStore.swift in Sources */,
+				5FBC0A922415A82900AE451E /* AddEquipmentViewController.swift in Sources */,
+				5F3CC8FB241139D00003E252 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3CC907241139D50003E252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3CC910241139D50003E252 /* RevereWaterSewerAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3CC912241139D50003E252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3CC91B241139D50003E252 /* RevereWaterSewerAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F3CC90D241139D50003E252 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F3CC8F4241139D00003E252 /* RevereWaterSewerApp */;
+			targetProxy = 5F3CC90C241139D50003E252 /* PBXContainerItemProxy */;
+		};
+		5F3CC918241139D50003E252 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F3CC8F4241139D00003E252 /* RevereWaterSewerApp */;
+			targetProxy = 5F3CC917241139D50003E252 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F3CC8FE241139D00003E252 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F3CC8FF241139D00003E252 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F3CC903241139D50003E252 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F3CC904241139D50003E252 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F3CC91D241139D50003E252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F3CC91E241139D50003E252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F3CC920241139D50003E252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D67C2D59A9098262119F66B /* Pods-RevereWaterSewerApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RevereWaterSewerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CityHall.RevereWaterSewerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F3CC921241139D50003E252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C34C8BFBE2386285C5D1C2DD /* Pods-RevereWaterSewerApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RevereWaterSewerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CityHall.RevereWaterSewerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F3CC923241139D50003E252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8919078AF6669BECCE33018B /* Pods-RevereWaterSewerAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RevereWaterSewerAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CityHall.RevereWaterSewerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RevereWaterSewerApp.app/RevereWaterSewerApp";
+			};
+			name = Debug;
+		};
+		5F3CC924241139D50003E252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFA82F3889E0A6D692DD1692 /* Pods-RevereWaterSewerAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RevereWaterSewerAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CityHall.RevereWaterSewerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RevereWaterSewerApp.app/RevereWaterSewerApp";
+			};
+			name = Release;
+		};
+		5F3CC926241139D50003E252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D63C8C958A205B3F7361C7E8 /* Pods-RevereWaterSewerApp-RevereWaterSewerAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RevereWaterSewerAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CityHall.RevereWaterSewerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RevereWaterSewerApp;
+			};
+			name = Debug;
+		};
+		5F3CC927241139D50003E252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0237C90428AB4C4C73C68E3 /* Pods-RevereWaterSewerApp-RevereWaterSewerAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RevereWaterSewerAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CityHall.RevereWaterSewerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RevereWaterSewerApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F3CC8F0241139D00003E252 /* Build configuration list for PBXProject "RevereWaterSewerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F3CC91D241139D50003E252 /* Debug */,
+				5F3CC91E241139D50003E252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F3CC91F241139D50003E252 /* Build configuration list for PBXNativeTarget "RevereWaterSewerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F3CC920241139D50003E252 /* Debug */,
+				5F3CC921241139D50003E252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F3CC922241139D50003E252 /* Build configuration list for PBXNativeTarget "RevereWaterSewerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F3CC923241139D50003E252 /* Debug */,
+				5F3CC924241139D50003E252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F3CC925241139D50003E252 /* Build configuration list for PBXNativeTarget "RevereWaterSewerAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F3CC926241139D50003E252 /* Debug */,
+				5F3CC927241139D50003E252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F3CC8ED241139D00003E252 /* Project object */;
+}
